@@ -11,6 +11,8 @@ const client = new Client({ intents: [ Intents.FLAGS.GUILDS,
 
 client.currency = new Collection();
 
+// lets make this project use GPT
+
 Reflect.defineProperty(client.currency, 'add', {
     value: async (id, amount) => {
         const user = client.currency.get(id);
