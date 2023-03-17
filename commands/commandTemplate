@@ -1,0 +1,14 @@
+/*
+!! make sure file name and .setName are both lower case !!
+
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName(' ')
+        .setDescription(' '),
+        async execute(interaction) {
+
+        },
+};
+*/
